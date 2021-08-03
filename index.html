@@ -20,6 +20,14 @@
     <!-- End Google Tag Manager -->
   </head>
   <body>
+    <script>
+      function consentGranted() {
+        gtag('consent', 'update', {
+          ad_storage: 'granted',
+        });
+      }
+    </script>
     Hello World
+    <button onclick="consentGranted">Yes</button>
   </body>
 </html>
